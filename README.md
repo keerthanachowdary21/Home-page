@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+## Project Overview
+This project involves the development of a full-stack application with the following requirements:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Backend Development:**
+   - Build a single entity CRUD (Create, Read, Update, Delete) operation using Node.js.
 
-## Available Scripts
+2. **Frontend Development:**
+   - Create a single-page application (SPA) using React.js.
+   - Preferred technologies include Next.js and reusable React components.
 
-In the project directory, you can run:
+3. **Design Requirement:**
+   - The home page should resemble the design of [Canada Lighting Experts](https://www.canadalightingexperts.com/).
 
-### `npm start`
+4. **Evaluation Criteria:**
+   - Code quality.
+   - Unit Testing (UT).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+### Backend:
+- **Node.js**: For building the backend API.
+- **Express.js**: Framework for API routing and middleware.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend:
+- **React.js**: For building the user interface.
+- **Next.js**: For server-side rendering and improved performance.
+- **CSS Modules**: For styling components.
+- **Axios**: For API communication.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend:
+- RESTful APIs for CRUD operations.
+- Input validation and error handling.
+- Unit testing for API endpoints.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend:
+- Responsive home page design.
+- Dynamic rendering of entity data.
+- Intuitive user interface with reusable components.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend Setup:
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the server:
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend Setup:
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Open the application in your browser at `http://localhost:3000`.
+2. Perform CRUD operations through the SPA.
+3. Explore the home page styled after [Canada Lighting Experts](https://www.canadalightingexperts.com/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Testing
 
-### Analyzing the Bundle Size
+### Backend Testing:
+Run unit tests for the backend:
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Build the frontend for production:
+   ```bash
+   npm run build
+   ```
+2. Deploy the backend and front end on a hosting platform such as Vercel or Heroku.
